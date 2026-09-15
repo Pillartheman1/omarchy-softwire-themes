@@ -59,6 +59,7 @@ Gold bar and menus, red accent, sun default wallpaper.
 
 ## Notes
 
+- Glass is part of each theme: 50% shell surfaces (bar, menus, notifications) plus blurred window opacity (75% on Black, 65% on Blue / Green / Red).
 - Fonts: Andromeda (title) is freeware, non-commercial. Y224 (numbers) is CC0.
 - Wallpapers are included with each theme. Cycle extras with `omarchy theme bg next`.
 - Updating: run the install command again. If you are already on a Softwire theme, the script re-applies it.

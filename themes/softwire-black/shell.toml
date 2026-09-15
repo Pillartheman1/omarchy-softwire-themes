@@ -6,9 +6,9 @@
 # Alpha companions (where present) range from 0 (invisible) to 1 (opaque).
 background       = "#000000"
 background-alpha = 0.5
-text             = "#e4b138"
+text             = "#ffffff"
 # Modules calling attention to themselves (recording, voxtype, alerts, updates)
-active           = "#8b2519"
+active           = "#a4a4a4"
 # Cross-axis size at font base-size 12. size-horizontal is the height of
 # top/bottom bars; size-vertical is the width of left/right bars. With
 # scale-with-font enabled, these grow/shrink with [font] base-size.
@@ -20,8 +20,8 @@ size-vertical    = 28
 # Shared Hyprland-derived border tokens. Surface sections reference these so
 # lock, notifications, popups, and menu-style cards stay aligned with the
 # current Hyprland active-border gradient.
-active-border            = "#dd2607"
-active-border-foreground = "#e4b138"
+active-border            = "#8d8d8d"
+active-border-foreground = "#ffffff"
 
 [controls]
 # Shared state tokens for interactive control chrome (buttons, dropdowns,
@@ -31,32 +31,32 @@ active-border-foreground = "#e4b138"
 # N, "Y X", "T X B", or "T R B L". Per-side keys like
 # normal-border-width-left override the list. Each *-border accepts either a
 # solid color or a Hyprland-style gradient, e.g. "rgba(...) rgba(...) 45deg".
-normal-color        = "#e4b138"
+normal-color        = "#ffffff"
 normal-fill-alpha   = 0.04
-normal-border       = "#e4b138"
+normal-border       = "#ffffff"
 normal-border-width = 1
 normal-border-alpha = 0.4
 
 # Hover-cursor: mouse hover and the panel keyboard cursor.
-hover-cursor-color        = "#e4b138"
+hover-cursor-color        = "#ffffff"
 hover-cursor-fill-alpha   = 0.08
-hover-cursor-border       = "#e4b138"
+hover-cursor-border       = "#ffffff"
 hover-cursor-border-width = 1
 hover-cursor-border-alpha = 0.25
 
 # Focus: Qt activeFocus. Mirror the hover-cursor values by default so
 # mouse hover, keyboard cursor, and tab focus all read as the same state
 # — themes that want focus to stand out override these four lines.
-focus-color        = "#e4b138"
+focus-color        = "#ffffff"
 focus-fill-alpha   = 0.08
-focus-border       = "#e4b138"
+focus-border       = "#ffffff"
 focus-border-width = 1
 focus-border-alpha = 0.25
 
 # Selected: persistent chosen/current state.
-selected-color        = "#e4b138"
+selected-color        = "#ffffff"
 selected-fill-alpha   = 0.18
-selected-border       = "#e4b138"
+selected-border       = "#ffffff"
 selected-border-width = 0
 selected-border-alpha = 1.0
 
@@ -126,7 +126,7 @@ base-size = 12
 # individual border-width-top/right/bottom/left keys override the list.
 background       = "#000000"
 background-alpha = 0.5
-text             = "#e4b138"
+text             = "#ffffff"
 border           = "hyprland.active-border"
 border-alpha     = 1.0
 # border-width     = 2
@@ -136,20 +136,20 @@ border-alpha     = 1.0
 # 0.97 mirrors the legacy hard-coded tooltip opacity.
 background       = "#000000"
 background-alpha = 0.5
-text             = "#e4b138"
+text             = "#ffffff"
 border           = "hyprland.active-border-foreground"
 border-alpha     = 1.0
 
 [notifications]
 background       = "#000000"
 background-alpha = 0.5
-text             = "#e4b138"
+text             = "#ffffff"
 # Conventionally matches the Hyprland active-window border. Border accepts
 # either a solid color or the full active-border gradient.
 border           = "hyprland.active-border"
 border-alpha     = 1.0
 # border-width     = 2
-countdown        = "#dd2607"
+countdown        = "#8d8d8d"
 
 [launcher]
 # Same six tokens as [menu], applied to the launcher overlay. Alpha
@@ -158,14 +158,14 @@ countdown        = "#dd2607"
 # mirror [menu] with the card at 0.95 to preserve the legacy translucency.
 background                = "#000000"
 background-alpha = 0.5
-text                      = "#e4b138"
+text                      = "#ffffff"
 border                    = "hyprland.active-border-foreground"
 border-alpha              = 1.0
 scrim                     = "#000000"
 scrim-alpha               = 0.5
-selected-background       = "#e4b138"
+selected-background       = "#ffffff"
 selected-background-alpha = 0.08
-selected-text             = "#dd2607"
+selected-text             = "#8d8d8d"
 selected-border           = "hyprland.active-border-foreground"
 selected-border-alpha     = 0.25
 
@@ -175,14 +175,14 @@ selected-border-alpha     = 0.25
 # behind the card. Clipboard and emojis inherit these tokens.
 background                = "#000000"
 background-alpha = 0.5
-text                      = "#e4b138"
+text                      = "#ffffff"
 border                    = "hyprland.active-border-foreground"
 border-alpha              = 1.0
 scrim                     = "#000000"
 scrim-alpha               = 0.5
-selected-background       = "#e4b138"
+selected-background       = "#ffffff"
 selected-background-alpha = 0.08
-selected-text             = "#dd2607"
+selected-text             = "#8d8d8d"
 selected-border           = "hyprland.active-border-foreground"
 selected-border-alpha     = 0.25
 
@@ -194,15 +194,15 @@ selected-border-alpha     = 0.25
 # border-error (the two states are mutually exclusive in time).
 background       = "#000000"
 background-alpha = 0.5
-text             = "#e4b138"
-text-error       = "#8b2519"
+text             = "#ffffff"
+text-error       = "#a4a4a4"
 border           = "hyprland.active-border"
-border-error     = "#8b2519"
+border-error     = "#a4a4a4"
 border-alpha     = 1.0
 scrim            = "#000000"
 scrim-alpha      = 0.5
 # accent is the lock-icon glyph color + text-selection tint.
-accent           = "#dd2607"
+accent           = "#8d8d8d"
 
 [lock]
 # Lock screen password input. background/background-alpha control the
@@ -212,15 +212,15 @@ accent           = "#dd2607"
 # exclusive in time).
 background       = "#000000"
 background-alpha = 0.5
-text             = "#e4b138"
-placeholder      = "#967525"
-text-error       = "#8b2519"
+text             = "#ffffff"
+placeholder      = "#a8a8a8"
+text-error       = "#a4a4a4"
 border           = "hyprland.active-border"
 border-active    = "hyprland.active-border"
-border-error     = "#8b2519"
+border-error     = "#a4a4a4"
 border-alpha     = 1.0
 # selection is the text-selection tint inside the input field.
-selection        = "#dd2607"
+selection        = "#8d8d8d"
 selection-alpha  = 0.45
 
 [image-picker]
@@ -230,8 +230,8 @@ selection-alpha  = 0.45
 # unselected-border-alpha softens carousel slices that aren't selected.
 scrim                   = "#000000"
 scrim-alpha             = 0.5
-text                    = "#e4b138"
-selected-border         = "#dd2607"
+text                    = "#ffffff"
+selected-border         = "#8d8d8d"
 selected-border-alpha   = 1.0
-unselected-border       = "#e4b138"
+unselected-border       = "#ffffff"
 unselected-border-alpha = 0.28
