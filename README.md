@@ -22,6 +22,14 @@ cd omarchy-softwire-themes
 
 Do not use `omarchy theme install` on this repository. That command clones a single theme; this pack is four themes and needs `install.sh`.
 
+Remove all four the same way:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Pillartheman1/omarchy-softwire-themes/main/uninstall.sh | bash
+```
+
+Or `./uninstall.sh` from a clone. If a Softwire theme is active, the script switches to Catppuccin first so the desktop is not left on a deleted theme.
+
 Then pick one:
 
 ```bash
