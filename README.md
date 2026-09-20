@@ -2,11 +2,11 @@
 
 [![Built for Omarchy: Theme](https://raw.githubusercontent.com/tcballard/omarchy-badges/75975e5b5bf75e7ede3764bcd2950046f7abfe2c/badges/v1/omarchy-theme.svg)](https://github.com/tcballard/omarchy-badges)
 
-A four-theme pack for [Omarchy](https://omarchy.org/): Softwire Black, Softwire Blue, Softwire Green, and Softwire Red. Same type, icons, and layout — each with its own palette, default wallpaper, and cover.
+A five-theme pack for [Omarchy](https://omarchy.org/): Softwire Black, Softwire Blue, Softwire Green, Softwire Red, and Softwire White. Same type, icons, and layout — each with its own palette, default wallpaper, and cover.
 
 ## Install
 
-One command installs all four:
+One command installs all five:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Pillartheman1/omarchy-softwire-themes/main/install.sh | bash
@@ -20,9 +20,9 @@ cd omarchy-softwire-themes
 ./install.sh
 ```
 
-Do not use `omarchy theme install` on this repository. That command clones a single theme; this pack is four themes and needs `install.sh`.
+Do not use `omarchy theme install` on this repository. That command clones a single theme; this pack is five themes and needs `install.sh`.
 
-Remove all four the same way:
+Remove all five the same way:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Pillartheman1/omarchy-softwire-themes/main/uninstall.sh | bash
@@ -37,6 +37,7 @@ omarchy theme set "Softwire Black"
 omarchy theme set "Softwire Blue"
 omarchy theme set "Softwire Green"
 omarchy theme set "Softwire Red"
+omarchy theme set "Softwire White"
 ```
 
 ## Themes
@@ -65,9 +66,15 @@ Lime bar and menus, green-planet default wallpaper.
 
 Gold bar and menus, red accent, sun default wallpaper.
 
+### Softwire White
+
+![Softwire White](themes/softwire-white/preview.png)
+
+Light-mode Softwire. Pale field, grey chrome, dark type, dish-array default wallpaper.
+
 ## Notes
 
-- Glass is part of each theme: 50% shell surfaces (bar, menus, notifications) plus blurred window opacity (75% on Black, 65% on Blue / Green / Red).
+- Glass is part of each theme: 50% shell surfaces (bar, menus, notifications) plus blurred window opacity (75% on Black, 65% on Blue / Green / Red, 80% on White).
 - Fonts: Andromeda (title) is freeware, non-commercial. Y224 (numbers) is CC0.
 - Wallpapers are included with each theme. Cycle extras with `omarchy theme bg next`.
 - Updating: run the install command again. If you are already on a Softwire theme, the script re-applies it.

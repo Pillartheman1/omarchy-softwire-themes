@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Install all four Softwire Omarchy themes in one shot.
+# Install all Softwire Omarchy themes in one shot.
 set -euo pipefail
 
 REPO_URL="${SOFTWIRE_REPO_URL:-https://github.com/Pillartheman1/omarchy-softwire-themes.git}"
 THEMES_DIR="${HOME}/.config/omarchy/themes"
-THEMES=(softwire-black softwire-blue softwire-green softwire-red)
+THEMES=(softwire-black softwire-blue softwire-green softwire-red softwire-white)
 CLEANUP=""
 
 script_dir=""
@@ -52,17 +52,18 @@ if [[ -n "$CLEANUP" ]]; then
 fi
 
 echo
-echo "Installed Softwire Black, Blue, Green, and Red."
+echo "Installed Softwire Black, Blue, Green, Red, and White."
 echo "Switch with:"
 echo "  omarchy theme set \"Softwire Black\""
 echo "  omarchy theme set \"Softwire Blue\""
 echo "  omarchy theme set \"Softwire Green\""
 echo "  omarchy theme set \"Softwire Red\""
+echo "  omarchy theme set \"Softwire White\""
 
 if command -v omarchy >/dev/null 2>&1; then
   current="$(omarchy theme current 2>/dev/null || true)"
   case "$current" in
-    "Softwire Black"|"Softwire Blue"|"Softwire Green"|"Softwire Red")
+    "Softwire Black"|"Softwire Blue"|"Softwire Green"|"Softwire Red"|"Softwire White")
       echo
       echo "Re-applying ${current} so the installed files take effect..."
       omarchy theme set "$current"
