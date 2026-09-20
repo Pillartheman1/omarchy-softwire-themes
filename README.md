@@ -70,7 +70,7 @@ Gold bar and menus, red accent, sun default wallpaper.
 
 ![Softwire White](themes/softwire-white/preview.png)
 
-Light-mode Softwire. Pale field, grey chrome, dark type.
+Light-mode Softwire. Pale field, grey chrome, dark type, dish-array default wallpaper.
 
 ## Notes
 
